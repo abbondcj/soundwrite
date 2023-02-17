@@ -1,0 +1,46 @@
+html {
+  background-color: #3b473e;
+  background-repeat: no-repeat;
+  height: 900px;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 0;
+}
+body {
+  color: #c5d1db;
+  font-family: 'Quicksand', 'sans-serif';
+  height: 100%;
+  margin: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+  max-width: 1080px;
+  min-width: 300px;
+}
+.app button {
+  border-radius: 5px;
+  outline: none;
+  font-family: 'Quicksand', 'sans-serif';
+  font-weight: bolder;
+  padding: 1%;
+}
+.app button:hover {
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: 'Quicksand', 'sans-serif';
+  font-weight: bold;
+  outline: none;
+  opacity: .6;
+  padding: 1%;
+}
+#root {
+  max-height: fit-content;
+  padding: 1%;
+}
+.app {
+  background-color: black;
+  border-radius: 10px;
+  padding: 1%;
+  text-align: center;
+}
+
+

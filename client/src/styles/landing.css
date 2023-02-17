@@ -1,0 +1,21 @@
+.landing-container {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+}
+.landing-header img {
+    margin: auto;
+    max-width: 300px;
+    width: 40%;
+}
+.preview {
+    margin: auto;
+    text-align: center;
+}
+.link-button {
+    color: #c5d1db;
+}
+.link-button:hover {
+    color: #24824b;
+    cursor: pointer;
+}

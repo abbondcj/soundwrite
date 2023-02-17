@@ -1,0 +1,132 @@
+.home-detail-container {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.home-detail {
+    margin: 1%;
+    min-width: 120px;
+    padding: 2%;
+    width: 200px;
+}
+.inputs-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    width: 80%;
+}
+.voice-input {
+    text-align: justify;
+    margin: 1%;
+    margin-top: 0%;
+    padding: 1%;
+}
+.ai-options {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+.ai-options button {
+    min-width: fit-content;
+    width: 30%;
+}
+.load-result {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    width: 80%;
+}
+.load-spin {
+    padding: 2%;
+    padding-bottom: 0%;
+}
+.result-container {
+    text-align: justify;
+    margin: 1%;
+    padding: 1%;
+}
+.load-result button {
+    margin: auto;
+    width: 30%;
+}
+.copy {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+    width: 50%;
+}
+.hide-icon {
+    background-image: url('../assets/icons8-hide-30.png');
+    height: 30px;
+    margin: 1%;
+    width: 30px;
+}
+.hide-icon:hover {
+    background-image: url('../assets/icons8-hide-white-30.png');
+    cursor: pointer;
+    height: 30px;
+    margin: 1%;
+    width: 30px;
+}
+.show-icon {
+    background-image: url('../assets/icons8-eye-grey-30.png');
+    height: 30px;
+    margin: 1%;
+    width: 30px;
+}
+.show-icon:hover {
+    background-image: url('../assets/icons8-eye-white-30.png');
+    cursor: pointer;
+    height: 30px;
+    margin: 1%;
+    width: 30px;
+}
+.control-buttons {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.record-button-inactive {
+    background-image: url('../assets/icons8-video-record-30.png');
+    margin: 1%;
+    height: 30px;
+    width: 30px;
+}
+.record-button-inactive:hover {
+    background-image: url('../assets/icons8-video-record-red-30.png');
+    cursor: pointer;
+    height: 30px;
+    margin: 1%;
+    width: 30px;
+}
+.pause-button {
+    background-image: url('../assets/icons8-pause-button-white-30.png');
+    height: 30px;
+    margin: 1%;
+    width: 30px;
+}
+.pause-button:hover {
+    background-image: url('../assets/icons8-pause-button-red-30.png');
+    cursor: pointer;
+    height: 30px;
+    margin: 1%;
+    width: 30px;
+}
+.cancel-button {
+    background-image: url('../assets/icons8-close-white-30.png');
+    height: 30px;
+    margin: 1%;
+    width: 30px;
+}
+.cancel-button:hover {
+    background-image: url('../assets/icons8-close-red-30.png');
+    cursor: pointer;
+    height: 30px;
+    margin: 1%;
+    width: 30px;
+}

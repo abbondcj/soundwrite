@@ -1,0 +1,32 @@
+.login-form {
+    background-color: rgb(59, 71, 62, .5);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    margin: auto;
+    margin-bottom: 10%;
+    max-width: 300px;
+    padding: 2%;
+    width: 70%;
+}
+.login-form input {
+    border: none;
+    border-radius: 5px;
+    font-family: 'Quicksand', 'sans-serif';
+    font-weight: bolder;
+    opacity: .9;
+    outline: none;
+    margin: 1%;
+    text-align: center;
+}
+.login-submit:hover {
+    cursor: pointer;
+}
+.link-button {
+    color: #c5d1db;
+}
+.link-button:hover {
+    color: #24824b;
+    cursor: pointer;
+}

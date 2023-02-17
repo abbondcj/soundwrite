@@ -1,0 +1,15 @@
+.theme-picker {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.color-option {
+    border: 3px solid transparent;
+    margin: 1%;
+}
+.color-option:hover {
+    border: 3px solid white;
+    cursor: pointer;
+    margin: 1%;
+}

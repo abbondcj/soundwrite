@@ -1,0 +1,72 @@
+.nav {
+    align-items: center;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    max-height: 110px;
+}
+
+.home-link-container {
+    display: flex;
+    width: 100%;
+    justify-content: left;
+}
+
+.logo-container {
+    justify-content: center;
+    width: 100%;
+}
+
+.logo-container img {
+    max-width: 50%;
+    min-width: 100px;
+}
+
+.profile-logout-container {
+    align-items: center;
+    display: flex;
+    justify-content: right;
+    width: 100%;
+}
+
+.nav-link {
+    margin: 10%;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.home-link {
+    background-image: url('../assets/icons8-home-page-30.png');
+    height: 30px;
+    width: 30px;
+}
+
+.home-link:hover {
+    background-image: url('../assets/icons8-home-page-white-30.png');
+    height: 30px;
+    width: 30px;
+}
+
+.profile-link {
+    background-image: url('../assets/icons8-user-30.png');
+    height: 30px;
+    width: 30px;
+}
+
+.profile-link:hover {
+    background-image: url('../assets/icons8-user-white-30.png');
+    height: 30px;
+    width: 30px;
+}
+
+.logout-link {
+    background-image: url('../assets/icons8-logout-rounded-30.png');
+    height: 30px;
+    width: 30px;
+}
+
+.logout-link:hover {
+    background-image: url('../assets/icons8-logout-rounded-white-30.png');
+    height: 30px;
+    width: 30px;
+}
