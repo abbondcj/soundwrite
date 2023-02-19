@@ -34,8 +34,8 @@ app.use(bodyParser.json());
 app.use(cors());
 
 const db = mysql.createConnection({
-	user: "root",
-	host: "localhost",
+	user: "admin",
+	host: "salesbuddydb.cscnzjlbxtvh.us-east-1.rds.amazonaws.com",
 	password: process.env.MYSQL_ROOT_PASS,
 	database: "vmail"
 })
