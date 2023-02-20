@@ -70,7 +70,7 @@ const SpeechConverter = ({ authdUser, color }) => {
 	return (
 		<>
 			<div>
-				<p>{listening ? 'Speak' : 'Press to record'}</p>
+				<p>{isMicrophoneAvailable? listening ? 'Speak' : 'Press to record' : <></>}</p>
 				<div className='inputs-container'>
 					{
 						isMicrophoneAvailable
@@ -111,8 +111,6 @@ const SpeechConverter = ({ authdUser, color }) => {
 										: <></>
 								}</>
 							: <>
-								<button style={{ backgroundColor: color || '#24824b' }} disabled onClick={() => { SpeechRecognition.startListening({ continuous: true }); }}>Start</button>
-								<button style={{ backgroundColor: color || '#24824b' }} disabled onClick={SpeechRecognition.stopListening}>Pause</button>
 								<p>Enable microphone and reload to start</p>
 							</>
 					}

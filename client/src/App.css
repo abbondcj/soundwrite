@@ -39,7 +39,8 @@ body {
 .app {
   background-color: black;
   border-radius: 10px;
-  padding: 1%;
+  margin-top: 1%;
+  padding: 2%;
   text-align: center;
 }
 
