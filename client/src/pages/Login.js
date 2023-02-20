@@ -13,7 +13,7 @@ const Login = ({ setAuthdUser }) => {
 		e.preventDefault();
 		const email = userEmail
 		const password = userPassword
-		fetch(':9000/login', {
+		fetch('http://54.83.227.27:9000/login', {
 			method: 'POST',
 			headers: {
 				'Content-Type': 'application/json'
