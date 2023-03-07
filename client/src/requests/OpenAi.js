@@ -1,6 +1,6 @@
 const openAiApi = {
     SentimentAnalysis: async (prompt, auth, userId) => {
-        const res = await fetch(`http://54.83.227.27:9000/sentiment`, {
+        const res = await fetch(`https://54.83.227.27:9000/sentiment`, {
             headers: {
                 'Content-Type': 'application/json',
                 'authorization': auth,
@@ -13,7 +13,7 @@ const openAiApi = {
         return res;
     },
     Spellcheck: async (prompt, auth, userId) => {
-        const res = await fetch(`http://54.83.227.27:9000/spellcheck`, {
+        const res = await fetch(`https://54.83.227.27:9000/spellcheck`, {
             headers: {
                 'Content-Type': 'application/json',
                 'authorization': auth,
