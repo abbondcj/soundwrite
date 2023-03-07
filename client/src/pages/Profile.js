@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
 import userApi from '../requests/User';
 import '../styles/profile.css';
 
@@ -83,6 +84,7 @@ const Profile = ({ authdUser, selectTheme, theme }) => {
       <div>
         <button style={{backgroundColor: theme || '#24824b'}} onClick={() => { localStorage.removeItem("vmail_user"); localStorage.removeItem("user_theme"); localStorage.removeItem("show_converter_info"); window.location.replace('/');}}>Logout</button>
       </div>
+      <Link to='/privacy-policy'>Privacy</Link>
     </div>
   )
 }
