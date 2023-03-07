@@ -1,6 +1,6 @@
 const userApi = {
 	GetTokens: async (auth, userId) => {
-		const res = await fetch('https://54.83.227.27:9000/user-tokens', {
+		const res = await fetch('/user-tokens', {
 			headers: {
 				'authorization': auth,
 				'userid': userId,
@@ -11,7 +11,7 @@ const userApi = {
 		return res;
 	},
 	UpdateTheme: async (auth, userId, colorTheme) => {
-		const res = await fetch('https://54.83.227.27:9000/user-theme', {
+		const res = await fetch('/user-theme', {
 			headers: {
 				'Content-Type': 'application/json',
 				'authorization': auth,
