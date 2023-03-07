@@ -16,7 +16,7 @@ const Register = () => {
     const username = userUsername
     const email = userEmail
     const password = userPassword
-    fetch('/register', {
+    fetch('https://soundwriteai.com:9000/register', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
