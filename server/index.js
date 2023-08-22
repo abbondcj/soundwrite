@@ -35,7 +35,7 @@ app.use(cors());
 
 const db = mysql.createConnection({
 	user: "admin",
-	host: "salesbuddydb.cscnzjlbxtvh.us-east-1.rds.amazonaws.com",
+	host: "soundwrite-db.cscnzjlbxtvh.us-east-1.rds.amazonaws.com",
 	password: process.env.MYSQL_ROOT_PASS,
 	database: "vmail"
 })
