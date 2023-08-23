@@ -16,7 +16,7 @@ const Register = () => {
     const username = userUsername
     const email = userEmail
     const password = userPassword
-    fetch('http://localhost:9000/register', {
+    fetch('/api/register', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
