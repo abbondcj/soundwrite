@@ -1,6 +1,6 @@
 const openAiApi = {
     SentimentAnalysis: async (prompt, auth, userId) => {
-        const res = await fetch(`/sentiment`, {
+        const res = await fetch(`/api/sentiment`, {
             headers: {
                 'Content-Type': 'application/json',
                 'authorization': auth,
@@ -13,7 +13,7 @@ const openAiApi = {
         return res;
     },
     Spellcheck: async (prompt, auth, userId) => {
-        const res = await fetch(`/spellcheck`, {
+        const res = await fetch(`/api/spellcheck`, {
             headers: {
                 'Content-Type': 'application/json',
                 'authorization': auth,
@@ -26,7 +26,7 @@ const openAiApi = {
         return res;
     },
     Professionalize: async (prompt, auth, userId) => {
-        const res = await fetch(`/professionalize`, {
+        const res = await fetch(`/api/professionalize`, {
             headers: {
                 'Content-Type': 'application/json',
                 'authorization': auth,

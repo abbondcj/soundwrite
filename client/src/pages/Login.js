@@ -13,7 +13,7 @@ const Login = ({ setAuthdUser }) => {
 		e.preventDefault();
 		const email = userEmail
 		const password = userPassword
-		fetch('/login', {
+		fetch('/api/login', {
 			method: 'POST',
 			headers: {
 				'Content-Type': 'application/json'
